@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-16"?><codes>
+    <entry name="Mii Corruption">
+        <code>10537F50 BF800000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Distorsion">
+        <code>10537C0C 3F680000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Corruption 2">
+        <code>10537F4C BF000000
+</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Hair Brightness">
+        <code>105065C4 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>00000000 = grey
+46000000 = disco hair
+7FFFFFFF = black hair &amp; face</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Body X-Position">
+        <code>10537C14 C2000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>* 00000000 - 42000000 or
+* 80000000 - C2000000</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Seizure">
+        <code>10537DC0 42000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Mii Animation's F-Curve Corruption">
+        <code>10537F54 C0800000
+10537F58 C1000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Headless Mii">
+        <code>1056C430 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+</codes>
