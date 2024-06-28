@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-16"?><codes>
+    <entry name="Reset Ban Timer">
+        <code>00020000 12EAA668
+00000000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Free Camera">
+        <code>03020000 1098B2D4
+00000001 00000000
+30000000 10855470
+10000000 20000000
+001203F0 461C4000
+001203F4 44340000
+001203F8 44340000
+001203FC 44340000
+00120400 44340000
+D0000000 DEADCAFE</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Giga Bowser">
+        <code>30000000 107F9C30
+12B7F6FE 13E06001
+31000000 0000002C
+30100000 00000000
+12C52EDE 13EE6931
+00120894 7FFFFFFF
+D0000000 DEADCAFE</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>skoolzout1</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Default Ruleset Modifier">
+        <code>00020000 1098F220
+01000100 00000000
+00020000 1098F224
+00000001 00000000
+00020000 1098F228
+0A000000 00000000
+00020000 1098F22C
+00000003 00000000
+00020000 1098F234
+08000100 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Sm4shmodder</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>Rules: Stock
+Stock: 3
+Custom Fighters: Off
+Handicap: Off
+Launch Rate: 1.0x
+Stage Choice: Choose
+Stock Time Limit: 8
+Team Attack: On
+Pause Function: On
+Score Display On
+Damage Display: On
+SD Penalty: -1</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Always 8 Player Smash (TEST)">
+        <code>00020000 1098B2A4
+00000001 00000000
+00020000 1098B2A8
+00000032 00000000
+00020000 1098B2AC
+00010000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>skoolzout1</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Special Smash (TEST)">
+        <code>00020000 1098B250
+FF000102 00000000
+00020000 1098B254
+02020602 00000000
+00020000 1098B258
+02020202 00000000
+00020000 1098B25C
+00000000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>skoolzout1</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+</codes>
