@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-16"?><codes>
+    <entry name="Max Money">
+        <code>30000000 10B8B9C8
+1038557A 11392DE5
+31000000 00000400
+30100000 00000000
+1F1EBC90 210B863F
+001202D4 3B9ACA00
+D0000000 DEADCAFE</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="God Mode">
+        <code>#093C17D8 4BFFFED9
+093C17D8 38600001</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>true</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Unlimited Ammos">
+        <code>#099D1C68 4BFD6E65
+099D1C68 7FE802A6</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Speed Hack">
+        <code>#0D24DA38 D023000C
+0D24DA38 9143000C
+#0D9038B8 D023000C
+0D9038B8 9143000C
+#0D902DB8 D023000C
+0D902DB8 9143000C
+</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="No Recoil">
+        <code>#099C4A8C 3BE00001
+099C4A8C 3BE00000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Longer Police Calls">
+        <code>#0B4A7A30 FC20F890
+0B4A7A30 FC80F890</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>???</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+</codes>
