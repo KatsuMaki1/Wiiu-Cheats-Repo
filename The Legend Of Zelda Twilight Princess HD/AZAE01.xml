@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-16"?><codes>
+    <entry name="!!INSTRUCTIONS FOR TPHD!!">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>Launch Splatoon first, connect JGECKO U and send asm codes, close Splatoon and then open TPHD</comment>
+        <enabled>true</enabled>
+    </entry>
+    <entry name="------Pirlo------">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinite Lantern Oil">
+        <code>#02A1CBC8 54A5043E
+02A1CBC8 38A05460</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinite Oxygen">
+        <code>#02A1D050 4182013C
+#02A1D17C 57EB043E
+02A1D050 4800013C
+02A1D17C 39600258</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Equip Ordon Clothes Over Hero's Clothes">
+        <code>#02060B54 2C09002E
+#02060B74 3860002F
+#02060B94 3860002F
+#027C46C8 3860002F
+#02961BB0 3860002F
+#029B7004 2C07002F
+#029B7010 3860002F
+#02AC25F8 3860002F
+#029B460C 41820040
+02060B54 2C09002F
+02060B74 3860002E
+02060B94 3860002E
+027C46C8 3860002E
+02961BB0 3860002E
+029B7004 2C07002E
+029B7010 3860002E
+02AC25F8 3860002E
+029B460C 60000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Sword &amp; Shield On Wolf Link">
+        <code>#020885E0 48A1D035
+#0208865C 48A1CFB9
+020885E0 38600000
+0208865C 38600000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment>Overlaps with Midna, lol</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Hide Midna on Wolf Link - Always">
+        <code>#02477908 40820044
+02477908 48000050</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment>Always hides Midna.
+Can and will cause random issues. Usage during story before obtaining the Master Sword is not advised.</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Hide Midna on Wolf Link - No Midna's Desperate Hour">
+        <code>#02477908 40820044
+#0247791C 484F600D
+#02477940 818BE448
+02477908 60000000
+0247791C 38600000
+02477940 39800000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment>To not ruin the immersion, only hides Midna outside of this part of the game.</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Allow Dark Energy Attack Without Midna">
+        <code>#0204A630 4182007C
+#0204A644 48A5AFD1
+#0204A678 489232B1
+0204A630 60000000
+0204A644 38600001
+0204A678 38600001</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment>Can use dark energy attack as Wolf Link when Midna is not present
+Intentionally does not work during Midna's Desperate Hour</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Always Mirrored Game (Wii)">
+        <code>#029481A4 5400D97E
+#028BDAC8 3BC00001
+029481A4 38000000
+028BDAC8 3BC00000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Never Mirrored Game (GameCube)">
+        <code>#029481A4 5400D97E
+#028BDAC8 3BC00001
+029481A4 38000001
+028BDAC8 3BC00001</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Disable Low Health Bip">
+        <code>#02087DBC 7F84E378
+02087DBC 38800000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Link Can Never Die">
+        <code>#02030C9C 7FE3FB78
+#02074C18 A01D0004
+#0291D374 A19C0004
+#0291D394 A01C0004
+#0291D3B4 A17C0004
+#0291D3F8 A01C0004
+#0291D418 A01C0004
+#0291D438 A0BC0004
+#0291D458 A01C0004
+#02A188B8 A00C0004
+02030C9C 38600000
+02074C18 38000050
+0291D374 39800001
+0291D394 38000001
+0291D3B4 39600001
+0291D3F8 38000001
+0291D418 38000001
+0291D438 38A00001
+0291D458 38000001
+02A188B8 38000001</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Transform Near NPC">
+        <code>#02477FE0 881E0496
+02477FE0 38000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Always Twilight Particles">
+        <code>#0299AA48 4BFD2EE1
+#0299B0C8 4BFD2861
+#029862D0 4BFE7659
+#029852F0 4BFE8639
+#0298E51C 4BFDF40D
+#0298DBFC 4BFDFD2D
+#0298DA50 4BFDFED9
+#0299AE94 4BFD2A95
+0299AA48 38600001
+0299B0C8 38600001
+029862D0 38600001
+029852F0 38600001
+0298E51C 38600001
+0298DBFC 38600001
+0298DA50 38600001
+0299AE94 38600001</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Pirlo</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>true</assembly_ram_write>
+        <comment>Applies on map load
+Must reload map to enable</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="------CosmoCortney------">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="----Unlockables, Inf. health &amp; stuff----">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="99999 Rupees">
+        <code>00010000 10647B4E
+0000270F 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="All/Max. Hearts">
+        <code>00000000 10647B4B
+00000050 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinite Lantern Oil">
+        <code>00010000 10647B52
+00006000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Zora Armor">
+        <code>00000000 10647C19
+0000000A 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Hero's Clothes">
+        <code>00000000 10647C1A
+00000095 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinites Arrows">
+        <code>00000000 10647C34
+00000063 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinites Bombs">
+        <code>00000000 10647C35
+00000063 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Infinites Slingshot Nuts">
+        <code>00000000 10647C3C
+00000063 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Gale Boomerang">
+        <code>00000000 10647BE4
+00000040 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Lantern">
+        <code>00000000 10647BE5
+00000048 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Spinner">
+        <code>00000000 10647BE6
+00000041 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Iron Boots">
+        <code>00000000 10647BE7
+00000045 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Arrows And Bow">
+        <code>00000000 10647BE8
+00000043 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Hawkeye">
+        <code>00000000 10647BF9
+0000003E 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Ball And Chain">
+        <code>00000000 10647BEA
+00000042 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Ghost Lantern">
+        <code>00000000 10647BEB
+000000E8 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Dominion Rod">
+        <code>00000000 10647BEC
+0000004C 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>Cosmo Cortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE : 
+00000000 10647BEC
+000000XX 00000000
+
+Value(s):
+White: 4C
+Brown: 46</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Clawshot">
+        <code>00000000 10647BEE
+00000044 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE: 
+00000000 10647BEE
+000000XX 00000000
+
+Value(s):
+Single: 44
+Double: 47</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bottle 1">
+        <code>00000000 10647BEF
+00000060 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00000000 10647BEF
+000000XX 00000000
+
+Value(s):
+Empty: 60
+Red Potion: 61, 69
+(Unused) Magic Potion: 62
+Blue Potion: 63
+Milk x2: 64
+Milk x1: 65
+Lantern Oil: 66, 68
+Water: 67
+Nasty Soup: 6A
+Hot Spring Water: 6B, 6D
+Fairy: 6C
+Fairy's Tears: 73
+Worm: 74
+Great Fairy's Tears: 75
+Bee LArvae: 76
+Rare Chu Jelly: 77
+Red Ghu Jelly: 78
+Blue Chu Jelly: 79
+(Unused) Green Chu Jelly: 7A
+Yellow Chu Jelly: 7B
+Purple Chu Jelly: 7C
+Simple Soup: 7D
+Good Soup: 7E
+Superb Soup: 7F</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bottle 2">
+        <code>00000000 10647BF0
+00000060 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00000000 10647BF0
+000000XX 00000000
+
+Value(s):
+Empty: 60
+Red Potion: 61, 69
+(Unused) Magic Potion: 62
+Blue Potion: 63
+Milk x2: 64
+Milk x1: 65
+Lantern Oil: 66, 68
+Water: 67
+Nasty Soup: 6A
+Hot Spring Water: 6B, 6D
+Fairy: 6C
+Fairy's Tears: 73
+Worm: 74
+Great Fairy's Tears: 75
+Bee LArvae: 76
+Rare Chu Jelly: 77
+Red Ghu Jelly: 78
+Blue Chu Jelly: 79
+(Unused) Green Chu Jelly: 7A
+Yellow Chu Jelly: 7B
+Purple Chu Jelly: 7C
+Simple Soup: 7D
+Good Soup: 7E
+Superb Soup: 7F</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bottle 3">
+        <code>00000000 10647BF1
+00000060 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00000000 10647BF1
+000000XX 00000000
+
+Value(s):
+Empty: 60
+Red Potion: 61, 69
+(Unused) Magic Potion: 62
+Blue Potion: 63
+Milk x2: 64
+Milk x1: 65
+Lantern Oil: 66, 68
+Water: 67
+Nasty Soup: 6A
+Hot Spring Water: 6B, 6D
+Fairy: 6C
+Fairy's Tears: 73
+Worm: 74
+Great Fairy's Tears: 75
+Bee LArvae: 76
+Rare Chu Jelly: 77
+Red Ghu Jelly: 78
+Blue Chu Jelly: 79
+(Unused) Green Chu Jelly: 7A
+Yellow Chu Jelly: 7B
+Purple Chu Jelly: 7C
+Simple Soup: 7D
+Good Soup: 7E
+Superb Soup: 7F</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bottle 4">
+        <code>00000000 10647BF2
+00000060 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00000000 10647BF2
+000000XX 00000000
+
+Value(s):
+Empty: 60
+Red Potion: 61, 69
+(Unused) Magic Potion: 62
+Blue Potion: 63
+Milk x2: 64
+Milk x1: 65
+Lantern Oil: 66, 68
+Water: 67
+Nasty Soup: 6A
+Hot Spring Water: 6B, 6D
+Fairy: 6C
+Fairy's Tears: 73
+Worm: 74
+Great Fairy's Tears: 75
+Bee LArvae: 76
+Rare Chu Jelly: 77
+Red Ghu Jelly: 78
+Blue Chu Jelly: 79
+(Unused) Green Chu Jelly: 7A
+Yellow Chu Jelly: 7B
+Purple Chu Jelly: 7C
+Simple Soup: 7D
+Good Soup: 7E
+Superb Soup: 7F</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Water Bombs">
+        <code>00000000 10647BF3
+00000071 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bombs">
+        <code>00000000 10647BF4
+00000070 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Bombchus">
+        <code>00000000 10647BF5
+00000072 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Ooccoo">
+        <code>00000000 10647BF6
+00000025 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Fishing Rod">
+        <code>00000000 10647BF8
+0000004A 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00000000 10647BF8
+000000XX 00000000
+
+Value(s):
+Without anything: 4A
+With Larva: 5B
+With Earring: 5C
+With Worm: 5D</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Horse Call">
+        <code>00000000 10647BF9
+00000084 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have Sling Shot">
+        <code>00000000 10647BFB
+0000004B 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have All/60 Poe Souls">
+        <code>00000000 10647C54
+0000003C 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have All Light Tears Of Faron Woond">
+        <code>00000000 10647C5C
+0000000B 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>need to collect only one. Unlock portal before using</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have all Light Tears of Kakariko">
+        <code>00000000 10647C5D
+0000000B 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>need to collect only one. Unlock portal before using</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Have all Light Tears of Lake Hylia">
+        <code>00000000 10647C5E
+0000000B 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>need to collect only one. Unlock portal before using</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Day Time">
+        <code>00020000 10647B7C
+43000000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00020000 10647B7C
+XXXXXXXX 00000000
+
+Value(s):
+Midday: 43000000
+Midnight: 42480000
+Early Morning: 42C80000
+Dawn of night: 43870000</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Link Name Modifier ">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+01000009 10647CFC
+XXXXXXXX XXXXXXXX
+00000000 000000FF
+
+INSTRUCTIONS:
+Ascii as Hex</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Epona Name Modifier">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+01000009 10647D0D
+XXXXXXXX XXXXXXXX
+00000000 000000FF
+
+INSTRUCTIONS:
+Ascii as Hex</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="----Misc. Codes----">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Button Activator">
+        <code>03010000 102EFA66
+00008000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+03010000 102EFA66
+0000XXXX 00000000
+
+Value(s):
+A: 8000
+B: 4000
+X: 2000
+Y: 1000
+L: 0020
+ZL: 0080
+R: 0010
+ZR: 0040
++: 0008
+-: 0004
+dPad up: 200
+dPad down: 0100
+dPad left: 0800
+dPad right: 0400</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Special Button Activator">
+        <code>03010000 102F49A8
+00001000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+03010000 102F49A8
+0000XXXX 00000000
+
+Value(s):
+Left Stick Up: 1000
+Left Stick Down: 0800
+Left Stick Left: 4000
+Left Stick Right: 2000
+Left Stick Pressed: 0004
+Right Stick Up: 0100
+Right Stick Down: 0080
+Right Stick Left: 0400
+Right Stick Right: 0200
+Right Stick Pressed: 0002
+TV-Button: 0001</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Moon Jump">
+        <code>03000000 102F49A9
+00000004 00000000
+00120000 10681E40
+12800000 13800000
+0000002C 42800000
+D0000000 DEADCAFE</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>Push Left Stick</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Super Speed Link">
+        <code>03000000 102EFA67
+00000040 00000000
+07000000 102F49A8
+00000008 00000000
+00120000 106674C4
+12800000 13800000
+0000048C 42C00000
+D0000000 DEADCAFE</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>Hold ZR and move left stick</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="----Audio Modifiers----">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="No Music">
+        <code>00020000 105D0000
+00000000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Hilarious Music">
+        <code>00020000 105A9954
+3EC00000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment>RAW CODE:
+00020000 105A9954
+XXXXXXXX 00000000
+
+Value(s):
+Low Pitch but Really Fast: 3EC00000
+Low Pitch and Fast : 3F000000
+High Pitch and Slowly : 40000000
+High Pitch and Very Slowly : 40400000</comment>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="----Graphical, Visual and weather Modifiers----">
+        <code/>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors/>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+    <entry name="Upside Down Mode">
+        <code>00020000 105D3F34
+BF800000 00000000</code>
+        <codeInputType>Cheat Code</codeInputType>
+        <authors>CosmoCortney</authors>
+        <raw_assembly>false</raw_assembly>
+        <assembly_ram_write>false</assembly_ram_write>
+        <comment/>
+        <enabled>false</enabled>
+    </entry>
+</codes>
